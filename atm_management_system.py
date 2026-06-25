@@ -57,6 +57,8 @@ elif menu == '3':
 
 elif menu == '4':
 
+    balance = 10000
+
   amount = float(input("enter amount to deposit: "))
   balance = balance + amount
   print("deposit successful")
