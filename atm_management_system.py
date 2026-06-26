@@ -8,66 +8,49 @@ Original file is located at
 """
 balance = 10000
 
-
-menu = input("""Hi! how can i help you
-1. enter '1' for pin change
-2. enter '2' for balance check
-3. enter '3' for withdrawal
-4. enter '4' for deposit
-5 enter '5' for exit""")
-
-#pin change
-if menu == '1':
-  pin = 1234
-  old_pin = int(input("enter old_pin:"))
-  if old_pin == pin:
-    new_pin = int(input("enter new_pin:"))
-    pin = new_pin
-    print("pin changed successful")
-  else:
-    print("incorrect old_pin")
-
-#balance check
-
-elif menu == '2':
-
-  
-  choice = int(input("2. check balance\n enter your choice:"))
-  if choice == 1:
-    print("your current balance is",balance)
-  else:
-    print("invalid choice")
-
-
-#withdrawal
-
-elif menu == '3':
-
-  
-
-  amount = float(input("enter amount to withdrawal"))
-
-  if amount <= balance:
-    balance = balance - amount
-    print("withdrawal successful")
-    print("remaining balance:",balance)
-  else:
-    print("insufficient balance")
-
-
-#deposit
-
-elif menu == '4':
-
+while True:
     
+    menu = input("""Hi! how can i help you
+    1. enter '1' for pin change
+    2. enter '2' for balance check
+    3. enter '3' for withdrawal
+    4. enter '4' for deposit
+    5 enter '5' for exit""")
+    #pin change
+    if menu == '1':
+        pin = 1234
+        old_pin = int(input("enter old_pin:"))
+        if old_pin == pin:
+            new_pin = int(input("enter new_pin:"))
+            pin = new_pin
+            print("pin changed successful")
+        else:
+            print("incorrect old_pin")
+            #balance check
+    elif menu == '2':
+        choice = int(input("2. check balance\n enter your choice:"))
+        if choice == 1:
+            print("your current balance is",balance)
+        else:
+            print("invalid choice")
+    #withdrawal
+    elif menu == '3':
+        amount = float(input("enter amount to withdrawal"))
+        if amount <= balance:
+            balance = balance - amount
+            print("withdrawal successful")
+            print("remaining balance:",balance)
+        else:
+            print("insufficient balance")
+    #deposit
 
-  amount = float(input("enter amount to deposit: "))
-  balance = balance + amount
-  print("deposit successful")
-  print("update balance:", balance)
+    elif menu == '4':
+        amount = float(input("enter amount to deposit: "))
+        balance = balance + amount
+        print("deposit successful")
+        print("update balance:", balance)
+    elif menu == '5':
+        print("Thank you for using ATM")
+        exit()
+        break
 
-
-elif menu == '5':
-
-    print("Thank you for using ATM")
-    exit()
