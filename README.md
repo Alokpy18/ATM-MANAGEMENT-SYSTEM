@@ -36,7 +36,7 @@ PYTHON 3 :
 
 # Pin change:
 <img width="1448" height="1086" alt="pin change image" src="https://github.com/user-attachments/assets/20be33b5-fa2b-4c1a-924e-66d3711c4d1d" />
-# Balance chack:
+# Balance check:
 <img width="1536" height="1024" alt="balance check image" src="https://github.com/user-attachments/assets/889410b1-ab2c-4a8d-a6ed-0d320b74fac5" />
 # Withdrawal:
 <img width="1448" height="1086" alt="withdrawal image" src="https://github.com/user-attachments/assets/38ab6477-dcd0-4804-9ea9-19653dd12e75" />
