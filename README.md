@@ -34,6 +34,20 @@ PYTHON 3 :
 
 # PROJECT OUTPUT :
 
+# Pin change:
+<img width="1448" height="1086" alt="pin change image" src="https://github.com/user-attachments/assets/20be33b5-fa2b-4c1a-924e-66d3711c4d1d" />
+# Balance chack:
+<img width="1536" height="1024" alt="balance check image" src="https://github.com/user-attachments/assets/889410b1-ab2c-4a8d-a6ed-0d320b74fac5" />
+# Withdrawal:
+<img width="1448" height="1086" alt="withdrawal image" src="https://github.com/user-attachments/assets/38ab6477-dcd0-4804-9ea9-19653dd12e75" />
+# Deposit:
+<img width="1448" height="1086" alt="deposit image" src="https://github.com/user-attachments/assets/a2ada61d-54b7-41ad-a4f0-169986bea5a7" />
+# exit:
+<img width="1448" height="1086" alt="exit image pmg" src="https://github.com/user-attachments/assets/6f5d31e5-a587-4719-aacc-fe5386e4ebeb" />
+
+
+
+
 
 
 
